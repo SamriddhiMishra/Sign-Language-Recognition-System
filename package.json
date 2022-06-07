@@ -1,5 +1,5 @@
 {
-  "name": "sign-language-translator",
+  "name": "sign-language-recognition-system",
   "version": "0.0.1",
   "license": "do what you want but try to give back",
   "dependencies": {
@@ -7,6 +7,7 @@
     "deeplearn-knn-image-classifier": "^0.3.0",
     "pre-commit": "^1.2.2"
   },
+  "main": "index.html",
   "scripts": {
     "start": "budo main.js:dist/build.js --live --host localhost",
     "build": "browserify main.js -o dist/build.js"
